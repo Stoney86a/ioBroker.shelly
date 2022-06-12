@@ -68,6 +68,7 @@ Uses the default Shelly firmware (no flashing of firmware needed!). You will fin
 |Shelly Color Bulb (SHCB-1)|supported since v4.0.5|supported since v4.0.5|
 |Shelly Button (SHBTN-2)|supported since v4.0.5|supported since v4.0.5|
 |Shelly Motion (SHMOS-01)|supported since v4.0.6|supported since v4.0.6|
+|Shelly TRV (SHTRV-01)|supported since v6.0.0|supported since v6.0.0|
 
 ## Supported devices (Gen 2)
 
@@ -107,6 +108,7 @@ Important: The adapter now requires at least Node.js 14.5
 * (klein0r) Added channel names for Shelly 3EM
 * (klein0r) Added device status states
 * (klein0r) Debug mode (MQTT) for Gen 2 devices
+* (klein0r) Just publish data to Shelly device, if value changed
 * (klein0r) **Breaking**: Configuration is only working in the new Admin 5 UI
 * (klein0r) **Breaking**: Uptime is now a number (seconds since boot)
 * (klein0r) Display total power for Shelly RGBW 2
